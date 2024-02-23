@@ -100,3 +100,19 @@ aside {
     max-width: 45%; /* Adjust based on preference */
     height: auto; /* Maintain aspect ratio */
 }
+.btn {
+    display: inline-block; /* Allows the application of padding and margin */
+    background-color: #D9E3DA; /* Green background */
+    color: rgb(5, 4, 4); /* White text */
+    padding: 10px 20px; /* Top and bottom padding, left and right padding */
+    margin: 10px 0; /* Margin to separate it from other content */
+    text-align: center;
+    text-decoration: none; /* Removes the underline from links */
+    font-weight: bold; /* Makes the text bold */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #D9E3DA; /* Darker shade of green on hover */
+}
