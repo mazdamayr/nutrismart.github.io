@@ -100,6 +100,7 @@ aside {
     max-width: 45%; /* Adjust based on preference */
     height: auto; /* Maintain aspect ratio */
 }
+
 .btn {
     display: inline-block; /* Allows the application of padding and margin */
     background-color: #D9E3DA; /* Green background */
