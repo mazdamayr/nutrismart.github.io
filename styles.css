@@ -1,0 +1,102 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header {
+    background-color: #D9E3DA;
+    color: #000000;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #A7BEA9;
+}
+
+footer {
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.widget {
+    background-color: #D9E3DA;
+    border: 1px solid #A7BEA9;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.widget h3 {
+    font-family: 'Rasa', sans-serif;
+    color: #000000;
+    margin-top: 0;
+}
+
+.widget.music {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #000000;
+}
+
+.widget.music audio {
+    width: 100%;
+}
+
+/* Existing CSS styles remain unchanged */
+
+.logo img {
+    max-width: 450px; /* Adjust the size as needed */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 150px;
+    }
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align the images vertically */
+    gap: 20px; /* Adjust the space between images */
+}
+
+.image-gallery img {
+    max-width: 45%; /* Adjust based on preference */
+    height: auto; /* Maintain aspect ratio */
+}
